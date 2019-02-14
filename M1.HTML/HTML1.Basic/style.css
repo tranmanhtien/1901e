@@ -1,3 +1,22 @@
 h1{
     color: blue;
 }
+h2{
+    color: green;
+    background: red;
+}
+h3{
+    color: white;
+    background: black;
+}
+h4{
+    color: pink;
+    background: aqua;
+}
+h5{
+    color: violet;
+    background: orange;
+}
+p{
+    background: green;
+}
