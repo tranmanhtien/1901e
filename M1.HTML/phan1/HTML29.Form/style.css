@@ -1,0 +1,22 @@
+.nav {
+    background: greenyellow;
+}
+.nav>li{
+    float: left;
+}
+.nav li{
+    border: solid 1px #FF0000;
+    position: relative;
+    list-style: none;
+}
+.nav li a{
+    display: inline-block;
+   text-decoration: none;
+}
+.nav .nav-menu{
+    display: none;
+    position: absolute;
+}
+.nav li:hover> .nav-menu{
+    display: block;
+}
