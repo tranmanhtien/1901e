@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        .header .logo{
+            background: #FF0000;
+        }
+        /**
+        selector chỉ áp dụng cho .logo mà nằm trực tiếp trong selector .header
+        */
+        .header > .logo{
+            background: green;
+        }
+        .main-menu-ul li>a{
+            text-decoration: none;
+        }
+         .main-menu-ul a{
+            /*text-decoration: none;/
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="logo">logo</div>
+    <div class="logo">logo123455667777</div>
+    <nav class="main-menu">
+        <div class="logo">Logo sub</div>
+        <div class="logo">adsdsda</div>
+        <ul class="main-menu-ul">
+            <a href="#">hihi</a>
+            <li><a href="#">menu 1</a></li>
+            <ul>
+                <li><a href="#">menu 2</a></li>
+            </ul>
+
+            <li><a href="#">menu 3</a></li>
+        </ul>
+
+    </nav>
+    <div class="logo">logo123455667777888888888</div>
+</div>
+<div class="footer">
+    <div class="logo">logo</div>
+    <nav class="main-menu">
+        <div class="logo">Logo sub</div>
+        <ul class="main-menu-ul">
+            <li><a href="#">menu 1</a></li>
+            <li><a href="#">menu 2</a></li>
+            <li><a href="#">menu 3</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
